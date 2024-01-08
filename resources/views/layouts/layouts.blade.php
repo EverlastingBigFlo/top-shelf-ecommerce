@@ -13,7 +13,7 @@
 <body>
     @include('includes.nav')
 
-    @include('includes.nav')
+    @include('includes.footer')
 </body>
 
 </html>
