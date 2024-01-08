@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Landing Page</title>
 </head>
 
 <body>
@@ -15,8 +15,8 @@
     @include('includes.nav')
     @yield('content')
     @include('includes.footer')
+    @stack('scripts')
 </body>
 
-@stack('scripts.js')
 
 </html>
