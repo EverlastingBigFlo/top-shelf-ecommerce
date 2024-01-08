@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    @include('includes.subNav')
     @include('includes.nav')
     @yield('content')
     @include('includes.footer')

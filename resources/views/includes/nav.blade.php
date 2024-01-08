@@ -1,5 +1,5 @@
 
 
 <div>
-    WELCOME TO TOP CHEF NAV
+    {{-- WELCOME TO TOP CHEF NAV --}}
 </div>

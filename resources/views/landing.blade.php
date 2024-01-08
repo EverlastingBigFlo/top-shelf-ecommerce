@@ -2,7 +2,7 @@
 
 
 @section('content')
-<div class=" text-[60px]">
+<div class=" text-base">
     WELCOME TO TOP SHELF LANDING PAGE
 </div>
     
