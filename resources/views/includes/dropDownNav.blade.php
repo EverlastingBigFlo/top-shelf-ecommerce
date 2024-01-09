@@ -7,7 +7,7 @@
         </li>
 
         <li>
-            <div class="group relative">
+            <div class="group relative ">
                 <!-- Trigger button -->
                 <button class="inline-flex items-center">
                     <span>Flower</span>
@@ -15,7 +15,7 @@
                 </button>
 
                 <!-- Dropdown content -->
-                <ul class="hidden absolute group-hover:block">
+                <ul class="hidden absolute group-hover:block w-32">
                     <li><a href="#"
                             class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
                             1</a></li>
@@ -84,7 +84,7 @@
                 </button>
 
                 <!-- Dropdown content -->
-                <ul class="hidden absolute group-hover:block">
+                <ul class="hidden absolute group-hover:block w-32">
                     <li><a href="#"
                             class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
                             1</a></li>
