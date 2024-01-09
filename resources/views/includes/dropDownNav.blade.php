@@ -1,38 +1,116 @@
+<div class=" font-lexend h-14">
 
-<div class="h-[56px] font-lexend flex items-center justify-center">
-    Drop Down Content Here
+    <div
+        class="hidden w-[80%] md:text-[12px] lg:text-base md:flex justify-around items-center list-none  m-auto font-light">
+        <li>
+            Shop All
+        </li>
 
-    {{-- <div class="relative inline-block text-left">
-        <div>
-          <button type="button" class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50" id="menu-button" aria-expanded="true" aria-haspopup="true">
-            Options
-            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-            </svg>
-          </button>
+        <li>
+            <div class="group relative">
+                <!-- Trigger button -->
+                <button class="inline-flex items-center">
+                    <span>Flower</span>
+                    <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
+                </button>
+
+                <!-- Dropdown content -->
+                <ul class="hidden absolute group-hover:block">
+                    <li><a href="#"
+                            class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
+                            1</a></li>
+                    <li><a href="#" class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
+                            2</a></li>
+                    <li><a href="#"
+                            class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
+                            3</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            Edibles
+        </li>
+        <li>
+            <div class="group relative">
+                <!-- Trigger button -->
+                <button class="inline-flex items-center">
+                    <span>Concentrates</span>
+                    <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
+                </button>
+
+                <!-- Dropdown content -->
+                <ul class="hidden absolute group-hover:block">
+                    <li><a href="#"
+                            class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
+                            1</a></li>
+                    <li><a href="#"
+                            class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option 2</a></li>
+                    <li><a href="#"
+                            class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
+                            3</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            Mushrooms
+        </li>
+        <li>
+            <div class="group relative">
+                <!-- Trigger button -->
+                <button class="inline-flex items-center">
+                    <span>Promotions/Bundles</span>
+                    <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
+                </button>
+
+                <!-- Dropdown content -->
+                <ul class="hidden absolute group-hover:block">
+                    <li><a href="#"
+                            class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
+                            1</a></li>
+                    <li><a href="#"
+                            class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option 2</a></li>
+                    <li><a href="#"
+                            class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
+                            3</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class="group relative">
+                <!-- Trigger button -->
+                <button class="inline-flex items-center">
+                    <span>Support</span>
+                    <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
+                </button>
+
+                <!-- Dropdown content -->
+                <ul class="hidden absolute group-hover:block">
+                    <li><a href="#"
+                            class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
+                            1</a></li>
+                    <li><a href="#"
+                            class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option 2</a></li>
+                    <li><a href="#"
+                            class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
+                            3</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            Rewards
+        </li>
+        <li>
+            Blog
+        </li>
+    </div>
+
+        {{-- search --}}
+        <div class="md:hidden flex gap-4 items-center justify-center">
+            <input type="search" value="" placeholder="Search"
+                class=" text-base font-normal text-[#C8C9CB] border-[#F4F4F4] pl-4  py-2 sm:pl-4 sm:px-40 sm:py-2 border rounded-3xl">
+                <button>
+                <img src="{{asset('svg/Button.svg')}}" alt="search icon">
+    
+                </button>
         </div>
-      
-        <!--
-          Dropdown menu, show/hide based on menu state.
-      
-          Entering: "transition ease-out duration-100"
-            From: "transform opacity-0 scale-95"
-            To: "transform opacity-100 scale-100"
-          Leaving: "transition ease-in duration-75"
-            From: "transform opacity-100 scale-100"
-            To: "transform opacity-0 scale-95"
-        -->
-        <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-          <div class="py-1" role="none">
-            <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
-            <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Account settings</a>
-            <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Support</a>
-            <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">License</a>
-            <form method="POST" action="#" role="none">
-              <button type="submit" class="text-gray-700 block w-full px-4 py-2 text-left text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Sign out</button>
-            </form>
-          </div>
-        </div>
-      </div> --}}
-      
 </div>
