@@ -2,7 +2,7 @@
     {{-- log --}}
     <div class="flex items-center gap-4">
         <img src="{{asset('svg/menu.svg')}}" class=" w-6 h-6 block md:hidden" alt="menuSvg">
-        <img src="{{ asset('svg/Logo.svg') }}" alt="logo">
+        <img src="{{ asset('svg/Logo.svg') }}" class=" w-28 h-28 sm:w-36 sm:h-36 md:h-44 md:w-44" alt="logo">
     </div>
 
     {{-- search --}}
@@ -12,8 +12,9 @@
     </div>
 
     {{-- your account and cartlist --}}
-    <div>
-        <p>Your Account</p>
-        <img src="{{asset('')}}" alt="cartIcon">
+    <div class="flex items-center gap-4 ">
+        <p class=" text-xs md:text-base">Your Account</p>
+        <p class=" text-base">|</p>
+        <img src="{{asset('svg/bag-2.png')}}" alt="cartIcon">
     </div>
 </div>
