@@ -1,111 +1,120 @@
-
-
-<div class=" h-[76px] flex justify-around items-center font-lexend ">
+<div class=" h-[76px] flex justify-around items-center font-lexend">
     {{-- log --}}
     <div class="flex items-center gap-2 sm:gap-4">
         <ul
             class="menu  text-white list-none pt-16 fixed -translate-y-[100%] transition-transform duration-700 top-0 left-0 right-0 bottom-0 z-[99] bg-black">
-            <li>
-                Shop All
-            </li>
+            <div class="dropDownItems">
+                <li>
+                    Shop All
+                </li>
 
-            <li>
-                <div class="group relative ">
-                    <!-- Trigger button -->
-                    <button class="inline-flex items-center">
-                        <span>Flower</span>
-                        <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
-                    </button>
+                <li>
+                    <div class="group relative ">
+                        <!-- Trigger button -->
+                        <button class="dropBtn">
+                            <span>Flower</span>
+                            <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
+                        </button>
 
-                    <!-- Dropdown content -->
-                    <ul class="hidden absolute group-hover:block w-32">
-                        <li><a href="#"
-                                class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
-                                1</a></li>
-                        <li><a href="#"
-                                class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
-                                2</a></li>
-                        <li><a href="#"
-                                class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
-                                3</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                Edibles
-            </li>
-            <li>
-                <div class="group relative">
-                    <!-- Trigger button -->
-                    <button class="inline-flex items-center">
-                        <span>Concentrates</span>
-                        <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
-                    </button>
+                        <!-- Dropdown content -->
+                        <ul class="hidden absolute group-hover:block w-32">
+                            <li><a href="#"
+                                    class="rounded-t options">Option
+                                    1</a></li>
+                            <li><a href="#"
+                                    class="options">Option
+                                    2</a></li>
+                            <li><a href="#"
+                                    class="rounded-b options">Option
+                                    3</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+            <div class="dropDownItems">
+                <li>
+                    Edibles
+                </li>
+                <li>
+                    <div class="group relative">
+                        <!-- Trigger button -->
+                        <button class="dropBtn">
+                            <span>Concentrates</span>
+                            <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
+                        </button>
 
-                    <!-- Dropdown content -->
-                    <ul class="hidden absolute group-hover:block">
-                        <li><a href="#"
-                                class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
-                                1</a></li>
-                        <li><a href="#"
-                                class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option 2</a>
-                        </li>
-                        <li><a href="#"
-                                class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
-                                3</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                Mushrooms
-            </li>
-            <li>
-                <div class="group relative">
-                    <!-- Trigger button -->
-                    <button class="inline-flex items-center">
-                        <span>Promotions/Bundles</span>
-                        <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
-                    </button>
+                        <!-- Dropdown content -->
+                        <ul class="hidden absolute group-hover:block">
+                            <li><a href="#"
+                                    class="rounded-t options">Option
+                                    1</a></li>
+                            <li><a href="#"
+                                    class="options">Option
+                                    2</a>
+                            </li>
+                            <li><a href="#"
+                                    class="rounded-b options">Option
+                                    3</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+            <div class="dropDownItems">
+                <li>
+                    Mushrooms
+                </li>
+                <li>
+                    <div class="group relative">
+                        <!-- Trigger button -->
+                        <button class="dropBtn">
+                            <span>Promotions/Bundles</span>
+                            <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
+                        </button>
 
-                    <!-- Dropdown content -->
-                    <ul class="hidden absolute group-hover:block">
-                        <li><a href="#"
-                                class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
-                                1</a></li>
-                        <li><a href="#"
-                                class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option 2</a>
-                        </li>
-                        <li><a href="#"
-                                class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
-                                3</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <div class="group relative">
-                    <!-- Trigger button -->
-                    <button class="inline-flex items-center">
-                        <span>Support</span>
-                        <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
-                    </button>
+                        <!-- Dropdown content -->
+                        <ul class="hidden absolute group-hover:block">
+                            <li><a href="#"
+                                    class="rounded-t options">Option
+                                    1</a></li>
+                            <li><a href="#"
+                                    class="options">Option
+                                    2</a>
+                            </li>
+                            <li><a href="#"
+                                    class="rounded-b options">Option
+                                    3</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+            <div class="dropDownItems">
+                <li>
+                    <div class="group relative">
+                        <!-- Trigger button -->
+                        <button class="dropBtn">
+                            <span>Support</span>
+                            <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
+                        </button>
 
-                    <!-- Dropdown content -->
-                    <ul class="hidden absolute group-hover:block w-32">
-                        <li><a href="#"
-                                class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
-                                1</a></li>
-                        <li><a href="#"
-                                class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option 2</a>
-                        </li>
-                        <li><a href="#"
-                                class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap">Option
-                                3</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                Rewards
-            </li>
+                        <!-- Dropdown content -->
+                        <ul class="hidden absolute group-hover:block w-32">
+                            <li><a href="#"
+                                    class="rounded-t options">Option
+                                    1</a></li>
+                            <li><a href="#"
+                                    class="options">Option
+                                    2</a>
+                            </li>
+                            <li><a href="#"
+                                    class="rounded-b options">Option
+                                    3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    Rewards
+                </li>
+            </div>
             <li>
                 Blog
             </li>
