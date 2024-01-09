@@ -13,11 +13,30 @@ function timer() {
     if (sec < 10) {
         sec = "0" + sec;
     }
+
+    // display the current time in my span
     const time = document.querySelector('#time').innerHTML = hours + ":" + minutes + ":" + sec + " ";
+
+    // get the seconds reading to show time
     setTimeout(timer, 1000);
 
 }
 
 timer();
 
-// console.log('hello');
+
+
+// to show hamburger when scaled down
+
+const menu = document.querySelector(".menu");
+const hamburger = document.querySelector(".hamburger");
+const closeIcon = document.querySelector(".closeIcon");
+const menuIcon = document.querySelector(".menuIcon");
+
+function toggleMenu() {
+  menu.classList.toggle("showMenu");
+  closeIcon.style.display = menu.classList.contains("showMenu") ? "block" : "none";
+  menuIcon.style.display = menu.classList.contains("showMenu") ? "none" : "block";
+}
+
+hamburger.addEventListener("click", toggleMenu);
