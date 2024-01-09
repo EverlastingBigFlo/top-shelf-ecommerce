@@ -27,3 +27,7 @@
     </div>
     </div>
 </div>
+
+@push('scripts')
+    <script src="{{asset('asset/js/script.js')}}" defer></script>
+@endpush
