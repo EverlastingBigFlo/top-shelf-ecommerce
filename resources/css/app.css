@@ -7,11 +7,11 @@
 
 
 .dropDownItems{
-    @apply flex items-center justify-around;
+@apply flex items-center justify-around p-10 align-baseline ;
 }
 .dropBtn{
-  @apply  inline-flex items-center;
+@apply inline-flex items-center;
 }
 .options{
-    @apply bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap;
+@apply bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-nowrap;
 }

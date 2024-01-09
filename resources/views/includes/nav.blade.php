@@ -13,19 +13,15 @@
                         <!-- Trigger button -->
                         <button class="dropBtn">
                             <span>Flower</span>
-                            <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
                         </button>
 
                         <!-- Dropdown content -->
                         <ul class="hidden absolute group-hover:block w-32">
-                            <li><a href="#"
-                                    class="rounded-t options">Option
+                            <li><a href="#" class="rounded-t options">Option
                                     1</a></li>
-                            <li><a href="#"
-                                    class="options">Option
+                            <li><a href="#" class="options">Option
                                     2</a></li>
-                            <li><a href="#"
-                                    class="rounded-b options">Option
+                            <li><a href="#" class="rounded-b options">Option
                                     3</a></li>
                         </ul>
                     </div>
@@ -40,20 +36,16 @@
                         <!-- Trigger button -->
                         <button class="dropBtn">
                             <span>Concentrates</span>
-                            <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
                         </button>
 
                         <!-- Dropdown content -->
                         <ul class="hidden absolute group-hover:block">
-                            <li><a href="#"
-                                    class="rounded-t options">Option
+                            <li><a href="#" class="rounded-t options">Option
                                     1</a></li>
-                            <li><a href="#"
-                                    class="options">Option
+                            <li><a href="#" class="options">Option
                                     2</a>
                             </li>
-                            <li><a href="#"
-                                    class="rounded-b options">Option
+                            <li><a href="#" class="rounded-b options">Option
                                     3</a></li>
                         </ul>
                     </div>
@@ -68,20 +60,16 @@
                         <!-- Trigger button -->
                         <button class="dropBtn">
                             <span>Promotions/Bundles</span>
-                            <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
                         </button>
 
                         <!-- Dropdown content -->
                         <ul class="hidden absolute group-hover:block">
-                            <li><a href="#"
-                                    class="rounded-t options">Option
+                            <li><a href="#" class="rounded-t options">Option
                                     1</a></li>
-                            <li><a href="#"
-                                    class="options">Option
+                            <li><a href="#" class="options">Option
                                     2</a>
                             </li>
-                            <li><a href="#"
-                                    class="rounded-b options">Option
+                            <li><a href="#" class="rounded-b options">Option
                                     3</a></li>
                         </ul>
                     </div>
@@ -93,20 +81,16 @@
                         <!-- Trigger button -->
                         <button class="dropBtn">
                             <span>Support</span>
-                            <img src="{{ asset('svg/arrow-down.svg') }}" alt="arrow down icon">
                         </button>
 
                         <!-- Dropdown content -->
                         <ul class="hidden absolute group-hover:block w-32">
-                            <li><a href="#"
-                                    class="rounded-t options">Option
+                            <li><a href="#" class="rounded-t options">Option
                                     1</a></li>
-                            <li><a href="#"
-                                    class="options">Option
+                            <li><a href="#" class="options">Option
                                     2</a>
                             </li>
-                            <li><a href="#"
-                                    class="rounded-b options">Option
+                            <li><a href="#" class="rounded-b options">Option
                                     3</a></li>
                         </ul>
                     </div>
@@ -115,9 +99,9 @@
                     Rewards
                 </li>
             </div>
-            <li>
+            <center class="p-20">
                 Blog
-            </li>
+            </center>
         </ul>
         <button class="hamburger block md:hidden">
 
