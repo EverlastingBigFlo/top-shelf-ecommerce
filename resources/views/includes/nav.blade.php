@@ -6,9 +6,13 @@
     </div>
 
     {{-- search --}}
-    <div class="hidden md:block">
+    <div class="hidden md:flex gap-4">
         <input type="search" value="" placeholder="Search"
             class=" text-base font-normal text-[#C8C9CB] border-[#F4F4F4] md:pl-2 md:px-40 md:py-2 lg:pl-5 lg:px-56 lg:py-4 border rounded-3xl">
+            <button>
+            <img src="{{asset('svg/Button.svg')}}" alt="search icon">
+
+            </button>
     </div>
 
     {{-- your account and cartlist --}}
