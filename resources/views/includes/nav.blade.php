@@ -1,6 +1,6 @@
 <div class=" h-[76px] flex justify-around items-center font-lexend ">
     {{-- log --}}
-    <div class="flex items-center gap-4">
+    <div class="flex items-center gap-2 sm:gap-4">
         <img src="{{asset('svg/menu.svg')}}" class=" w-6 h-6 block md:hidden" alt="menuSvg">
         <img src="{{ asset('svg/Logo.svg') }}" class=" w-28 h-28 sm:w-36 sm:h-36 md:h-44 md:w-44" alt="logo">
     </div>
@@ -16,8 +16,8 @@
     </div>
 
     {{-- your account and cartlist --}}
-    <div class="flex items-center gap-4 ">
-        <p class=" text-xs md:text-base">Your Account</p>
+    <div class="flex items-center gap-2 sm:gap-4 ">
+        <p class=" text-[10px] md:text-base">Your Account</p>
         <p class=" text-base">|</p>
         <div>
         <img src="{{asset('svg/bag-2.png')}}" alt="cartIcon">
@@ -28,6 +28,3 @@
     </div>
 </div>
 
-@push('scripts')
-    <script src="{{asset('asset/js/script.js')}}" defer></script>
-@endpush
