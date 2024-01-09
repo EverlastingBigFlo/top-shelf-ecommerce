@@ -6,7 +6,7 @@
     </div>
 
     {{-- search --}}
-    <div class="hidden md:flex gap-4">
+    <div class="hidden md:flex gap-4 items-center">
         <input type="search" value="" placeholder="Search"
             class=" text-base font-normal text-[#C8C9CB] border-[#F4F4F4] md:pl-2 md:px-40 md:py-2 lg:pl-5 lg:px-56 lg:py-4 border rounded-3xl">
             <button>
@@ -19,6 +19,11 @@
     <div class="flex items-center gap-4 ">
         <p class=" text-xs md:text-base">Your Account</p>
         <p class=" text-base">|</p>
+        <div>
         <img src="{{asset('svg/bag-2.png')}}" alt="cartIcon">
+        <div class="bg-[#EB2606] w-6 h-6 rounded-full text-white absolute my-[-14px] mx-3">
+            <center>0</center>
+        </div>
+    </div>
     </div>
 </div>
