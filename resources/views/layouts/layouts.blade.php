@@ -17,6 +17,7 @@
     @include('includes.nav')
     @include('includes.dropDownNav')
     @yield('content')
+    @include('includes.unlock')
     @include('includes.footer')
     @stack('scripts')
 </body>
