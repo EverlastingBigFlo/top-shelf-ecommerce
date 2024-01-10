@@ -1,8 +1,8 @@
 
 
-<div class="relative h-[107.9rem] sm:h-[80.125rem] bg-gradient-to-b from-[#1A1E26] to-[#01100B] overflow-hidden">
-    <div class="flex justify-center mb-[10rem] absolute inset-0">
-        <div class="w-[80%] bg-[#05422C] h-[28.7rem] rounded-xl font-lexend  text-white absolute">
+<div class=" h-[107.9rem] sm:h-[80.125rem] bg-gradient-to-b from-[#1A1E26] to-[#01100B] overflow-hidden">
+    <div class="flex justify-center absolute top-[70rem] inset-0">
+        <div class="w-[90%] bg-[#05422C] h-[28.7rem] rounded-xl font-lexend  text-white absolute">
             <h1 class="font-semibold text-[4rem] w-[80%] px-20 pt-10">
                 UNLOCK 20% OFF YOUR FIRST ORDER
             </h1>
