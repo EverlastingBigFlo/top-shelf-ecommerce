@@ -10,6 +10,10 @@ class ShelfController extends Controller
     {
         return view('landing');
     }
+    public function landing()
+    {
+        return view('landing');
+    }
 
     
 }

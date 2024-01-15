@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [ShelfController::class, 'index'])->name('index');
+
+Route::get('/landing', [ShelfController::class, 'landing'])->name('landing');
+
