@@ -26,5 +26,9 @@
         </div>
     </div>
 
+{{-- footer content here --}}
 
+<div>
+    
+</div>
 </div>
